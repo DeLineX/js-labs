@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../src/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="../src/styles/index.css" />
+    <title>JS-labs</title>
+</head>
+
+<body>
+    <header>
+        <div class="container centered">
+            <div class="endAlign"><a href="../index.html" class="btn btn_size_big">Назад</a></div>
+            <h1>Настроечки сайта</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <fieldset class="block">
+                <legend>Цвет кнопок</legend>
+                <div class="block__content">
+                    <input type="color" id="btnColorInput">
+                    <div class="btn" id="btnColorReset">Сбросить</div>
+                    <div class="btn" id="btnColorApply">Применить</div>
+                </div>
+            </fieldset>
+            <fieldset class="block">
+                <legend>Цвет фона</legend>
+                <div class="block__content">
+                    <input type="color" id="bgColorInput">
+                    <div class="btn" id="bgColorReset">Сбросить</div>
+                    <div class="btn" id="bgColorApply">Применить</div>
+                </div>
+            </fieldset>
+        </div>
+    </main>
+</body>
+<script src="./applySettings.js"></script>
+<script src="./script.js"></script>
+
+</html>
